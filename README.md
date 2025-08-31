@@ -1,8 +1,8 @@
 # Spring Boot LangChain4j
 
-The LLM name, API key and parameters are specified in [`application.properties`](./src/main/resources/application.properties).
+The LLM model name, API key and parameters of this application are specified in [`application.properties`](./src/main/resources/application.properties).
 
-Main classes:
+The main classes implementing the agent are:
 - [`CustomerSupportAgent.java`](./src/main/java/csci318/demo/service/CustomerSupportAgent.java)
 - [`AgentConfiguration.java`](./src/main/java/csci318/demo/infrastructure/agentic/AgentConfiguration.java)
 - [`Tools.java`](./src/main/java/csci318/demo/infrastructure/agentic/Tools.java)
