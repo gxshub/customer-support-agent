@@ -78,3 +78,6 @@ curl -G "http://localhost:8080/customerSupportAgent" ^
 
 The user's input message is the content following `userMessage=`.
 The agent will remember the recent dialogues per session defined by `sessionId`.
+
+You can test the agent by asking other questions related to the business (e.g., what is the cancellation policy of Miles of Smiles?)
+and some arbitrary questions (which the agent is instructed NOT to respond to).
